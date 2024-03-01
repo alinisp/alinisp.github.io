@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: monaco;
+}
+li{
+    background-color: blue;
+}
+p{
+    color: black;
+    text-align: center;
+    background-color: rgb(248, 242, 242);
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+}
+a{
+    text-decoration: underline;
+}
+#pin{
+    width: 500px;
+    height: 500px;
+    border: 4px solid red;
+    border-radius: 25px;
+    margin-left: 40px;
+}
+body{
+    margin: 50px ;
+    border:3px solid rgb(179, 219, 216);
+    border-radius: 30px;
+}
+h1,h2,h3,h4{
+    color: black;
+    margin-left: 40px;
+}
+#pin2{
+    width: 700px;
+    height: 500px;
+    border: 4px solid red;
+    border-radius: 25px;
+    margin-left: 40px;
+}
+
