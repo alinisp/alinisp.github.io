@@ -40,4 +40,11 @@ h1,h2,h3,h4{
     border-radius: 25px;
     margin-left: 40px;
 }
+iframe{
+    width: 700px;
+    height: 500px;
+    border-radius: 25px;
+    margin-left: 40px;
+}
+
 
