@@ -1,16 +1,17 @@
 body{
     margin: 50px ;
-    border:3px solid rgb(156, 25, 2);
+    border:5px solid rgb(185, 35, 12);
     border-radius: 30px;
+    background-color: rgb(255, 255, 255);
 }
 p{
     color: black;
     text-align: center;
-    background-color: rgb(248, 242, 242);
-    font-style: italic;
+    background-color: rgb(255, 255, 255);
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 40px;
+    margin-right: 40px;
 }
 #pin5{
     width: 700px;
@@ -39,4 +40,9 @@ p{
     border-radius: 25px;
     margin-left: 40px;
 
+}
+h1{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
 }
