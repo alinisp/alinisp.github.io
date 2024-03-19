@@ -1,6 +1,9 @@
 body{
     background-color: rgb(255, 255, 255);
     font-family: monaco;
+    margin: 50px ;
+    border:7px solid rgb(224, 47, 47);
+    border-radius: 50px;
 }
 li{
     background-color: blue;
@@ -25,11 +28,7 @@ a{
     border-radius: 25px;
     margin-left: 40px;
 }
-body{
-    margin: 50px ;
-    border:7px solid rgb(224, 47, 47);
-    border-radius: 50px;
-}
+
 h1,h2,h3,h4{
     color: black;
     margin-left: 40px;
