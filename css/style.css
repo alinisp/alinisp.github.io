@@ -29,9 +29,10 @@ a{
     margin-left: 40px;
 }
 
-h1,h2,h3,h4{
+h1,h3,h4{
     color: black;
     margin-left: 40px;
+    text-align: center;
 }
 #pin2{
     width: 650px;
@@ -69,5 +70,37 @@ a{
 
 }
 a:hover{
-    color: rgb(255, 78, 78);
+    color: rgb(35, 34, 34);
+}
+div {
+    color: black;
+    text-align: center;
+    background-color: rgb(255, 245, 245);
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    /*width: 450px;
+    height: 500px;*/
+    border: 3px solid red;
+    border-radius: 25px;
+}
+div > p {
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+h2{
+    color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
