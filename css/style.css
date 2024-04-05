@@ -6,8 +6,8 @@ body{
     border-radius: 50px;
 }
 li{
-    background-color: rgb(255, 17, 0);
-    height: 60px;
+    background-color: rgb(224, 47, 47);
+    height: 50px;
     width: 70px;
     border-radius: 60px;
 }
@@ -28,7 +28,7 @@ a{
 #pin{
     width: 500px;
     height: 500px;
-    border: 4px solid red;
+    border: 4px solid rgb(224, 47, 47);
     border-radius: 25px;
     margin-left: 40px;
 }
@@ -41,7 +41,7 @@ h1,h3,h4{
 #pin2{
     width: 650px;
     height: 500px;
-    border: 4px solid red;
+    border: 4px solid rgb(224, 47, 47);
     border-radius: 25px;
     margin-left: 40px;
 }
@@ -49,14 +49,14 @@ iframe{
     width: 700px;
     height: 500px;
     border-radius: 25px;
-    margin-left: 525px;
+    margin-left: 30%;
     padding: 5px;
 }
 
 #pin3{
     width: 450px;
     height: 500px;
-    border: 4px solid red;
+    border: 4px solid rgb(224, 47, 47);
     border-radius: 25px;
     margin-left: 40px;
 }
@@ -67,7 +67,7 @@ a{
     border: solid;
     width: max-content;
     padding: 2px;
-    color: rgb(197, 0, 0);
+    color: rgb(224, 47, 47);
     border-radius: 25px;
     border-radius: 20%;
     background-color: rgb(255, 203, 203);
@@ -88,7 +88,7 @@ div {
     margin-right: 40px;
     /*width: 450px;
     height: 500px;*/
-    border: 6px solid red;
+    border: 6px solid rgb(224, 47, 47);
     border-radius: 25px;
     border-top: 5px;
     border-bottom: 5px;
@@ -112,7 +112,7 @@ h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #menu {
-	background: red;
+	background: rgb(224, 47, 47);
 	height: 60px;
 	padding-left: 18px;
 	border-radius: 100px;
@@ -120,7 +120,7 @@ h2{
 #menu ul, #menu li {
 	margin: 0 auto;
 	padding: 0;
-	list-style: none
+	list-style: none;
 }
 #menu ul {
 	width: 100%;
@@ -135,7 +135,7 @@ h2{
 	line-height: 45px;
 	padding: 0 14px;
 	text-decoration: none;
-	color: #b30303;
+	color: rgb(160, 11, 11);
 	font-size: 16px;
 }
 #menu a.dropdown-arrow:after {
@@ -143,7 +143,7 @@ h2{
 	margin-left: 5px;
 }
 #menu li a:hover {
-	color: #962c2c;
+	color: rgb(224, 47, 47);
 	background: #c5abab;
 }
 #menu input {
@@ -183,14 +183,14 @@ h2{
 	width: 100%;
 }
 #menu ul.sub-menus a {
-	color: #f5f5f5;
+	color: #4f4646;
 	font-size: 16px;
 }
 #menu li:hover ul.sub-menus {
 	display: block
 }
 #menu ul.sub-menus a:hover{
-	background: #f5f5f5;
+	background: #e6e6e6;
 	color: #444444;
 }
 @media screen and (max-width: 800px){
@@ -204,4 +204,40 @@ h2{
 	#menu input:checked + label {color:#FFFFFF}
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
+}
+section{
+    olor: black;
+    text-align: center;
+    background-color: rgb(255, 209, 209);
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    /*width: 450px;
+    height: 500px;*/
+    border: 6px solid rgb(224, 47, 47);
+    border-radius: 25px;
+    border-top: 5px;
+    border-bottom: 5px;
+}
+section > p {
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+footer{
+	background-color:rgb(224, 47, 47);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width:93%;
+    display: block;
+    unicode-bidi: isolate;
 }
