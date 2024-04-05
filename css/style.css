@@ -206,9 +206,9 @@ h2{
 	#menu input:checked ~ ul {display:block}
 }
 section{
-    olor: black;
+    color: black;
     text-align: center;
-    background-color: rgb(255, 209, 209);
+    background-color: rgb(255, 245, 245);
     font-style: italic;
     font-size: larger;
     font-family: Georgia, 'Times New Roman', Times, serif;
