@@ -288,14 +288,3 @@ div>p {
         display: block
     }
 }
-
-footer {
-    background-color: rgb(224, 47, 47);
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 93%;
-    display: block;
-    unicode-bidi: isolate;
-}
