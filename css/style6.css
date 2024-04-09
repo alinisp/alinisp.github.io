@@ -52,3 +52,64 @@ ul{
     margin-right: 60px; 
     background-color: rgb(253, 234, 234);
 }
+footer{
+	background-color:rgb(224, 47, 47);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width:93%;
+    display: block;
+    unicode-bidi: isolate;
+}
+section{
+    color: black;
+    text-align: center;
+    background-color: rgb(255, 245, 245);
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    /*width: 450px;
+    height: 500px;*/
+    border: 6px solid rgb(224, 47, 47);
+    border-radius: 25px;
+    border-top: 5px;
+    border-bottom: 5px;
+}
+section > p {
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+div {
+    color: black;
+    text-align: center;
+    background-color: rgb(255, 246, 246);
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    /*width: 450px;
+    height: 500px;*/
+    border: 6px solid rgb(224, 47, 47);
+    border-radius: 25px;
+    border-top: 5px;
+    border-bottom: 5px;
+}
+div > p {
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
