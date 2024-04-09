@@ -43,7 +43,7 @@ h1, h2, h3{
     border-radius: 25px;
     margin-left: 40px;
 } 
-#div1{
+#ul1{
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 27px;
@@ -51,15 +51,16 @@ h1, h2, h3{
     margin-left: 60px;
     margin-right: 60px; 
     background-color: rgb(224, 47, 47);
+    border-radius: 25%;
 }
-#div2{
+#ul2{
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 27px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 60px;
     margin-right: 60px; 
-    background-color: rgb(255, 221, 221);
+    background-color: rgb(255, 242, 242);
 }
 section{
     color: black;
