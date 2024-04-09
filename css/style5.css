@@ -206,5 +206,5 @@ div > p {
     margin-left: 60px;
     margin-right: 60px; 
     background-color: rgb(224, 47, 47);
-    border-bottom: 25%;
+    border-radius: 50%;
 }
