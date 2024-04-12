@@ -174,7 +174,7 @@ div > p {
 	height: auto;
 	overflow: hidden;
 	width: 170px;
-	background: #444444;
+	background: #d3d3d3;
 	position: absolute;
 	z-index: 99;
 	display: none;
@@ -185,15 +185,15 @@ div > p {
 	width: 100%;
 }
 #menu ul.sub-menus a {
-	color: #4f4646;
+	color: #e2dcdc;
 	font-size: 16px;
 }
 #menu li:hover ul.sub-menus {
 	display: block
 }
 #menu ul.sub-menus a:hover{
-	background: #e6e6e6;
-	color: #444444;
+	background: #fffcfc;
+	color: #616161;
 }
 @media screen and (max-width: 800px){
 	#menu {position:relative}

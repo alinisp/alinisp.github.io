@@ -174,7 +174,7 @@ div>p {
 
 #menu li a:hover {
     color: rgb(224, 47, 47);
-    background: #c5abab;
+    background: #4d4949;
 }
 
 #menu input {
@@ -206,7 +206,7 @@ div>p {
     height: auto;
     overflow: hidden;
     width: 170px;
-    background: #444444;
+    background: #fffefe;
     position: absolute;
     z-index: 99;
     display: none;
@@ -219,7 +219,7 @@ div>p {
 }
 
 #menu ul.sub-menus a {
-    color: #4f4646;
+    color: #eee7e7;
     font-size: 16px;
 }
 
@@ -229,7 +229,7 @@ div>p {
 
 #menu ul.sub-menus a:hover {
     background: #e6e6e6;
-    color: #444444;
+    color: #e70505;
 }
 
 @media screen and (max-width: 800px) {
