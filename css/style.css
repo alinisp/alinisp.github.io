@@ -33,7 +33,11 @@ a{
     margin-left: 40px;
 }
 
-h1,h3,h4{
+h1{
+    font-size: 35px;
+}
+
+h3,h4{
     color: black;
     margin-left: 40px;
     text-align: center;
