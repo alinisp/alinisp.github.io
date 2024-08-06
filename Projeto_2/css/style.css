@@ -1,5 +1,5 @@
 .div-cards{
-    border: 3px solid #800505;
+    border: 3px solid rgb(240, 164, 0);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -10,7 +10,7 @@
 .div-card{
     width: 30%;
     min-width: 280px;
-    border: 2px solid #f00;
+    border: 2px solid rgb(240, 164, 0);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,4 +20,31 @@ img{
 }
 .img2{
     height: 100px;
+}
+body{
+    background-color: rgb(253, 241, 213);
+    font-family: monaco;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    background-color: rgb(255, 210, 152);
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+#am{
+    width: 400px;
+    height: 500px;
 }
