@@ -9,3 +9,28 @@ body{
     background-color: rgb(208, 234, 255);
     font-family: monaco;
 }
+.div-cards{
+    border: 3px solid rgb(0, 204, 240);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 15px;
+}
+.div-card{
+    width: 30%;
+    min-width: 280px;
+    border: 2px solid rgb(0, 204, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(232, 236, 240);
+}
+
+img{
+    width: 80%;
+}
+#globo{
+    width: 90%;
+}
