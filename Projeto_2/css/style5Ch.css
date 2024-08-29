@@ -1,0 +1,55 @@
+h1{
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(248, 235, 235);
+    font-family: monaco;
+}
+.div-cards{
+    border: 3px solid rgb(212, 22, 22);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 15px;
+}
+.div-card{
+    width: 30%;
+    min-width: 280px;
+    border: 2px solid rgb(212, 12, 12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 244, 233);
+}
+
+img{
+    width: 80%;
+}
+#globo{
+    width: 90%;
+}
+h2{
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+h1{
+    font-size: 250%;
+}
+.im2{
+    height: 270%;
+}
