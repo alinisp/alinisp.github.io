@@ -1,0 +1,19 @@
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color:  rgb(240, 164, 0); 
+    color: #ffffff; 
+}
+
+.foo{
+    background-color:  rgb(240, 164, 0);
+}
+footer .redes-sociais a{
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    background-color: rgb(240, 164, 0);
+    border: rgb(240, 164, 0);
+}

@@ -6,11 +6,11 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
-    background-color: rgb(192, 201, 255);
+    background-color: rgb(253, 249, 213);
     font-family: monaco;
 }
 .div-cards{
-    border: 3px solid rgb(0, 23, 196);
+    border: 3px solid rgb(240, 164, 0);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -21,11 +21,11 @@ body{
 .div-card{
     width: 30%;
     min-width: 280px;
-    border: 2px solid rgb(0, 27, 177);
+    border: 2px solid rgb(240, 164, 0);
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(195, 206, 246);
+    background-color: rgb(238, 227, 193);
 }
 
 img{

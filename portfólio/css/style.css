@@ -32,3 +32,13 @@ a{
     font-size: 150%;
     
 }
+footer {
+    background-color: rgb(199, 80, 215);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
