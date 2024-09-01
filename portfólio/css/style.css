@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(251, 221, 255);
+    background-color: rgb(195, 30, 255);
+    border: 6px solid rgb(195, 30, 255);
 }
 img{
     border-radius: 50%;
@@ -16,29 +17,103 @@ p{
     font-size: 150%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-footer{
-	background-color: rgb(222, 139, 233);
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 10px 750px;
-    font-size: 0.9rem;
-    margin-top: auto;
-}
+
 a{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 150%;
     
 }
-footer {
-    background-color: rgb(199, 80, 215);
-    text-align: center;
-    padding: 20px 0;
-    margin-top: auto;
+.pin{
+    background-color: rgb(251, 221, 255) ;
+}
+header {
+    background-color: var(--cor-primaria);
+    padding: 10px 0;
 }
 
-footer p {
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--cor-contraste);
+}
+
+/* Estilos para dispositivos menores */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+    #home img {
+        width: 140px; 
+        height: 140px;
+    }
+
+    #home p {
+        font-size: 14px;
+    }
+}
+
+#home {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--cor-branco);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#home h1 {
+    color: var(--cor-primaria);
+    margin-bottom: 20px;
+}
+
+#home img {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 5px solid #800;
+}
+
+#home p {
+    margin-top: 10px;
+    color: var(--cor-secundaria);
 }
