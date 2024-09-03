@@ -53,3 +53,29 @@ h1{
 .im2{
     height: 270%;
 }
+a{
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    display: block;
+    border: solid;
+    width: max-content;
+    padding: 2px;
+    color: rgb(255, 171, 62);
+    border-radius: 25px;
+    border-radius: 20%;
+    background-color: rgb(255, 239, 218);
+    margin: 10px auto;
+
+}
+a:hover{
+    color: rgb(35, 34, 34);
+}
