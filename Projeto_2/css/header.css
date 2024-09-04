@@ -23,7 +23,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #ffffff; 
+    color: rgb(240, 164, 0); 
     text-decoration: none;
     padding: 10px 20px;
     transition: background-color 0.3s;
@@ -35,23 +35,37 @@ header nav ul li a:hover {
     background-color: rgb(240, 164, 0); 
 }
 
-@media (max-width: 768px) {
-    header nav ul {
-        flex-direction: column;
-    }
-
-    header nav ul li {
-        margin-bottom: 10px;
-    }
+.sub-menus {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: rgb(240, 164, 0);
+    border: 2px solid rgb(240, 164, 0);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 10px;
+    z-index: 1000; 
 }
 
-@media (max-width: 480px) {
+.sub-menus li {
+    display: block;
+}
 
-    header nav ul li a {
-        padding: 5px 10px;
-    }
+.sub-menus li a {
+    padding: 10px;
+    color: #916523;
+    border-radius: 4px;
+}
 
-    header nav ul li {
-        font-size: 16px;
-    }
+.sub-menus li a:hover {
+    background-color: rgb(240, 164, 0);
+}
+
+header nav ul li:hover .sub-menus {
+    display: block; 
+}
+
+#responsive-menu {
+    display: none; 
 }
