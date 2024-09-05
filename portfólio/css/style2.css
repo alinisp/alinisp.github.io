@@ -3,12 +3,61 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(195, 30, 255);
-    color: var(--cor-texto);
+    color: #333333;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
+.sob {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(215, 199, 221);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sob h2 {
+    color:rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.sob table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.sob th, .sob td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.sob th {
+    background-color: rgb(215, 199, 221);
+    color: rgb(186, 15, 249);
+}
+
+.sob img.pe {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    aspect-ratio: 1 / 1; 
+    object-fit: cover; 
+    margin-top: 20px;
+    border-radius: 0; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 5px solid rgb(216, 119, 184);
+}
+
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    
+}
 header {
     background-color: var(--cor-primaria);
     padding: 10px 0;
@@ -36,47 +85,38 @@ nav ul li a:hover {
     color: var(--cor-contraste);
 }
 
-.sob {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    text-align: center;
-    background-color: var(--cor-branco);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Estilos para dispositivos menores */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
 }
 
-.sob h2 {
-    color: var(--cor-primaria);
-    margin-bottom: 20px;
-}
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.sob table {
-    width: 100%;
-    margin-bottom: 20px;
-    border-collapse: collapse;
-}
+    nav ul li {
+        margin: 10px 0;
+    }
 
-.sob th, .sob td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
+    nav ul li a {
+        font-size: 18px;
+    }
 
-.sob th {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-branco);
-}
+    #home img {
+        width: 140px; 
+        height: 140px;
+    }
 
-.sob img.pe {
-    width: 100%; 
-    max-width: 300px; 
-    height: auto; 
-    aspect-ratio: 1 / 1; 
-    object-fit: cover; 
-    margin-top: 20px;
-    border-radius: 0; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 5px solid var(--cor-primaria);
+    #home p {
+        font-size: 14px;
+    }
 }
-

@@ -1,0 +1,53 @@
+#contato {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#contato h2 {
+    color: rgb(195, 30, 255);
+    margin-bottom: 20px;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+#contato label {
+    align-self: flex-start;
+    margin-bottom: 5px;
+}
+
+#contato input, #contato textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #fffafa;
+    border-radius: 4px;
+}
+
+#contato textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#contato button {
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branco);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contato button:hover {
+    background-color: var(--cor-contraste);
+}
+

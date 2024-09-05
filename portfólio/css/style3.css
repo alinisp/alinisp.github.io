@@ -1,0 +1,134 @@
+/* Página Projetos */
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projeto-card {
+    background-color: rgb(244, 215, 255);
+    border: 1px solid rgb(195, 30, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projeto-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.projeto-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    flex-shrink: 0;
+}
+
+.projeto-card h3 {
+    color: rgb(69, 7, 91);
+    margin-top: 10px;
+}
+
+.projeto-card p {
+    color:  rgb(69, 7, 91);
+    margin-top: auto;
+}
+body{
+    background-color: rgb(224, 138, 255);
+    border: 6px solid rgb(195, 30, 255);
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    
+}
+.pin{
+    background-color: rgb(240, 142, 253) ;
+}
+header {
+    background-color:rgb(195, 30, 255);
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(30, 255, 199);
+}
+
+/* Estilos para dispositivos menores */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+    #home img {
+        width: 140px; 
+        height: 140px;
+    }
+
+    #home p {
+        font-size: 14px;
+    }
+}
