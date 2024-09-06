@@ -1,3 +1,12 @@
+body{
+    background-color: rgb(251, 221, 255);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 121vh;
+}
+
 #contato {
     max-width: 800px;
     margin: 40px auto;
@@ -29,7 +38,7 @@
     width: 100%;
     max-width: 400px;
     padding: 10px;
-    border: 1px solid #fffafa;
+    border: 1px solid #8a8989;
     border-radius: 4px;
 }
 
@@ -51,3 +60,21 @@
     background-color: var(--cor-contraste);
 }
 
+footer {
+    text-align: center;
+    background-color:  rgb(195, 30, 255); 
+    color: #ffffff; 
+}
+
+.foo{
+    background-color:  rgb(195, 30, 255);
+}
+footer .redes-sociais a{
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    background-color: rgb(195, 30, 255);
+    border: rgb(195, 30, 255);
+}

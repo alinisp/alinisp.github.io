@@ -120,3 +120,24 @@ nav ul li a:hover {
         font-size: 14px;
     }
 }
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color:  rgb(195, 30, 255); 
+    color: #ffffff; 
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.foo{
+    background-color:  rgb(195, 30, 255);
+}
+footer .redes-sociais a{
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    background-color: rgb(195, 30, 255);
+    border: rgb(195, 30, 255);
+}
