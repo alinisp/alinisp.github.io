@@ -4,7 +4,7 @@ body{
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 121vh;
+    min-height: 100vh;
 }
 
 #contato {
@@ -59,9 +59,43 @@ body{
 #contato button:hover {
     background-color: var(--cor-contraste);
 }
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+    #home img {
+        width: 140px; 
+        height: 140px;
+    }
+
+    #home p {
+        font-size: 14px;
+    }
+}
 footer {
     text-align: center;
+    padding: 40px 0;
     background-color:  rgb(195, 30, 255); 
     color: #ffffff; 
 }

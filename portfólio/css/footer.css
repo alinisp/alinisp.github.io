@@ -1,10 +1,8 @@
 footer {
     text-align: center;
-    padding: 20px 0;
+    padding: 120px;
     background-color:  rgb(195, 30, 255); 
     color: #ffffff; 
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 .foo{
@@ -18,4 +16,7 @@ footer .redes-sociais a{
     transition: color 0.3s ease;
     background-color: rgb(195, 30, 255);
     border: rgb(195, 30, 255);
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
 }
